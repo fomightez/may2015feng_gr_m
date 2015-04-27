@@ -1,0 +1,35 @@
+track type=wiggle_0
+fixedStep chrom=chrI start=1 step=230218
+1
+fixedStep chrom=chrII start=1 step=813184
+1
+fixedStep chrom=chrIII start=1 step=316620
+1
+fixedStep chrom=chrIV start=1 step=1531933
+1
+fixedStep chrom=chrV start=1 step=576874
+1
+fixedStep chrom=chrVI start=1 step=270161
+1
+fixedStep chrom=chrVII start=1 step=1090940
+1
+fixedStep chrom=chrVIII start=1 step=562643
+1
+fixedStep chrom=chrIX start=1 step=439888
+1
+fixedStep chrom=chrX start=1 step=745751
+1
+fixedStep chrom=chrXI start=1 step=666816
+1
+fixedStep chrom=chrXII start=1 step=1078177
+1
+fixedStep chrom=chrXIII start=1 step=924431
+1
+fixedStep chrom=chrXIV start=1 step=784333
+1
+fixedStep chrom=chrXV start=1 step=1091291
+1
+fixedStep chrom=chrXVI start=1 step=948066
+1
+fixedStep chrom=chrM start=1 step=85779
+1
