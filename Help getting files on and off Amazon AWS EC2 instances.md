@@ -47,4 +47,4 @@ http://angus.readthedocs.org/en/2014/amazon/installing-dropbox.html
 
 BUT BE WARY!!!
 
->IMPORTANT: Dropbox will sync everything you have to your EC2 machine, so if you are already using Dropbox for a lot of stuff, you might want to create a separate Dropbox account just for the course.
+>IMPORTANT: Dropbox will sync everything you have to your EC2 machine
