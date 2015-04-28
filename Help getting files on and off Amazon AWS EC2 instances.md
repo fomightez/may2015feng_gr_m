@@ -10,7 +10,8 @@ Example that worked in the terminal on my Mac to download from my Amazon instanc
 
 	scp -i workshop.pem ubuntu@ec2-50-19-16-34.compute-1.amazonaws.com:/usr/workshop/sc3.db .
 
-The key is `workshop.pem`. And `ec2-50-19-16-34.compute-1.amazonaws.com` was my current instance.
+The key is `workshop.pem`. And `ec2-50-19-16-34.compute-1.amazonaws.com` was my current instance. The `.` specified to download the file `sc3.db` to the current working directory.
+
 
 
 * http://stackoverflow.com/questions/6558080/scp-secure-copy-to-ec2-instance-without-password
