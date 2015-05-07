@@ -14,7 +14,7 @@ May <http://bit.ly/FengMayLM>`__.
 
 `A Google Doc for sharing today <http://bit.ly/FengGoogleDoc>`__
 
-3:30am-5:20pm, May 14th, 2015. (3rd session; see
+3:30am-5:20pm, May 14th, 2015. (3rd session in series; see
 `first <http://jan2015feng-gr-m.readthedocs.org/en/latest/>`__ and
 `second session info
 here <http://feng-lab-data-science-toolbox-and-chip-seq.readthedocs.org/en/latest/>`__)
