@@ -10,20 +10,20 @@ Decatur
 
 3:30am-5:20pm, May 14th, 2015.
 
-Links
-
-::
-
-    * [ChIP-Seq Analysis Workshop for Feng Lab Group meeting](http://bit.ly/FengMayLM).
-
-    * [Slides link](http://fomightez.github.io/MayFourteenth_slides).
-
-    * [A Google Doc for sharing today](http://bit.ly/FengGoogleDoc)
-
 This is the 3rd session in series; see
 `first <http://jan2015feng-gr-m.readthedocs.org/en/latest/>`__ and
 `second session info
-here <http://feng-lab-data-science-toolbox-and-chip-seq.readthedocs.org/en/latest/>`__.
+here <http://feng-lab-data-science-toolbox-and-chip-seq.readthedocs.org/en/latest/>`__
+
+Links
+~~~~~
+
+-  `ChIP-Seq Analysis Workshop for Feng Lab Group
+   meeting <http://bit.ly/FengMayLM>`__.
+
+-  `Slides link <http://fomightez.github.io/MayFourteenth_slides>`__.
+
+-  `A Google Doc for sharing today <http://bit.ly/FengGoogleDoc>`__
 
 .. toctree::
    :maxdepth: 2
