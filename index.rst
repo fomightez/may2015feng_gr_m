@@ -32,8 +32,9 @@ Contents
    :maxdepth: 2
 
    getting_started
+   connecting_windows
+   connecting_all_others
    today
    in the wild 1
    sources
    going forward
-
