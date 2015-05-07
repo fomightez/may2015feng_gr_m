@@ -7,7 +7,8 @@ April 2015 Feng Lab meeting
 
 Hands on ChIP-Seq Workshop
 
-`Feng Lab Group meeting by Wayne Decatur in May <http://bit.ly/????>`__.
+`Feng Lab Group meeting by Wayne Decatur in
+May <http://bit.ly/FengMayLM>`__.
 
 `Slides link <http://fomightez.github.io/????_slides/#/>`__.
 
