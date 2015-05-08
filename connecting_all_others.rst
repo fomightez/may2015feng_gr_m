@@ -8,15 +8,19 @@ Logging into your computer instance “in the cloud” (NON-windows version; Mac
 These instructions are written for a Mac operating system, but they
 should work for Linux once you open your ``terminal`` program as well.
 
+I will step through this process using a Mac at the beginning of the
+workshop.
+
 Connecting using the key and SSH
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You'll be provided with the network name, a.k.a. ``public DNS``, of your
 virtual machine. This is the public name of your computer on the
-internet.
+internet. It will look something like
+``ec2-174-129-122-189.compute-1.amazonaws.com``, for example.
 
-Connect to that computer with ssh under the username ‘ubuntu’, as
-follows.
+Connect to your particular virtual computer with ssh under the username
+``ubuntu``, as follows.
 
 If you prepared in advance, the key provided for today should be on your
 Desktop already.
@@ -40,19 +44,30 @@ Next type:
     ssh -i ~/Desktop/amazon.pem ubuntu@ec2-???-???-???-???.compute-1.amazonaws.com
 
 (but you have to replace the stuff after the ‘@’ sign with the network
-name of the computer that is provided to you. You may wish to paste the
-template in a text editor and edit it first if it makes it easier for
-you.)
+name of the computer that is provided to you. You may wish to open your
+text editor and paste the template in the text editor for editing if it
+makes it easier for you because you can point and click there.)
 
-With the above command, you’re using ssh to log in as user ‘ubuntu’ to
-the machine ‘ec2-174-129-122-189.compute-1.amazonaws.com’, for an
+With the above command, you’re using ssh to log in as user ``ubuntu`` to
+the machine ``ec2-174-129-122-189.compute-1.amazonaws.com``, for an
 example name, using the authentication key located in ``workshop.pem``,
 a.k.a. the ``identity file`` prefaced by the ``-i`` option in the
 command, on your Desktop.
 
-You should now see a text line that starts with something like
-``ubuntu@ip-10-235-34-223:~$``. You’re connected to the machine at
-Amazon Web Service, but you have have one more important step.
+The first time you try this on your own computer it will say it is the
+first time seeing the machine you are trying to connect to and ask if
+you'd like to register to use this computer. Simply type ``yes`` at the
+prompt.
+
+::
+
+    $ yes
+
+Some information should scroll by and at the bottom you should now see a
+text line that starts with something like
+``ubuntu@ip-10-235-34-223:~$``. You’re now officially connected to the
+machine at Amazon Web Services. Hooray! But you have have one last
+IMPORTANT step to totally take control.
 
 Type:
 
@@ -61,22 +76,24 @@ Type:
     sudo bash
     cd /usr/workshop
 
-The first command restarts the bash shell with you using as the super
-user and the second sets you in the directory where we will work today
-``usr/woshop``. You have to issue these commands each time you login; it
-doesn't persist.
+The first command restarts the bash shell with you using the machine as
+the super user and the second sets you in the directory where we will
+work today ``usr/workshop``. You have to issue these commands each time
+you login; these settings don't persist.
 
 This is where we will begin today and it after this it will be much like
 you are working on your own computer's command line.
 
-To check out what we have you can type the command below to see
+To check out what you have you can type the command below to see
 
 ::
 
         df -h
 
-Exiting (probably won't need to do this today)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exiting
+~~~~~~~
+
+(You probably won't need to do this today.)
 
 To log out, type:
 
