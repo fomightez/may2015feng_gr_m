@@ -2,8 +2,8 @@
    :depth: 3.0
 ..
 
-Logging into your computer instance “in the cloud” (NON-windows version; Mac and Linux)
-=======================================================================================
+Logging into your computer instance “in the cloud” (NON-Windows version; for Mac and Linux)
+===========================================================================================
 
 These instructions are written for a Mac operating system, but they
 should work for Linux once you open your ``terminal`` program as well.
