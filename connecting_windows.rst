@@ -75,7 +75,8 @@ you login; these settings don't persist.
 This is where we will begin today and it after this it will be much like
 you are working on your own computer's command line.
 
-To check out what you have you can type the command below to see
+OPTIONAL: To check out what you have you can type the command below to
+see
 
 ::
 
