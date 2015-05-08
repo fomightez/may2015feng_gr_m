@@ -83,7 +83,7 @@ see
         df -h
 
 Exiting
-~~~~~~~
+-------
 
 (You probably won't need to do this today.)
 
