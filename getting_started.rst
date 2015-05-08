@@ -31,7 +31,7 @@ in a program called ``Terminal``.
 A special ``key`` file is part of the way you'll identify yourself to
 the computer instance when you connect via SSH.
 
-To help make the first few minutes of the workshop session go smoothly
+To help make the first few minutes of the workshop session go smoothly,
 complete these steps to prepare your system and yourself for connecting
 to Amazon Web Services.
 
