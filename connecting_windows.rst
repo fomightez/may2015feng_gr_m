@@ -32,10 +32,8 @@ Open up ``PuTTY``, and enter your virtual computer's network name into
 the ``Host Name`` box. Just leave everything else in the window as it
 is.
 
-.. figure:: /images/entering_name_putty.png
-   :alt: Enter name of the computer in PuTTY
-
-   Enter name of the computer in PuTTY Host Name box
+| |Enter name of the computer in PuTTY Host Name box|
+| 
 
 Now, you need to point PuTTY to the key file. In the left side of your
 PuTTY window, go down and find the ``SSH`` section, select ``Auth`` and
@@ -43,26 +41,20 @@ in the bottom of the window on the right use the ``Browse`` button to
 locate the ``workshop.ppk`` file provided to you via email and sitting
 on your Desktop. Then select ``Open``.
 
-.. figure:: /images/point_to_key_putty.png
-   :alt: Point PuTTY to the key
-
-   Point PuTTY to the key
+| |Point PuTTY to the key|
+| 
 
 At the prompt log in as ``ubuntu``.
 
-.. figure:: /images/login_putty.png
-   :alt: Log in as ubuntu
-
-   Log in as ubuntu
+| |Log in as ubuntu|
+| 
 
 Some information should scroll by and at the bottom you should now see a
 text line that starts with something like ``ubuntu@ip-10-235-34-223:~$``
 as in the image below.
 
-.. figure:: /images/result_putty.png
-   :alt: successful log in result
-
-   successful log in result
+| |successful log in result|
+| 
 
 You’re now officially connected to the machine at Amazon Web Services.
 Hooray! But you have have one last IMPORTANT step to totally take
@@ -104,3 +96,8 @@ To log out, type:
 or just close the terminal or Putty window. (You cannot do this step
 wrong because ultimately you (or me, for today) have control of the
 instance in Amazon Web Services console.)
+
+.. |Enter name of the computer in PuTTY Host Name box| image:: /images/entering_name_putty.png
+.. |Point PuTTY to the key| image:: /images/point_to_key_putty.png
+.. |Log in as ubuntu| image:: /images/login_putty.png
+.. |successful log in result| image:: /images/result_putty.png
