@@ -41,7 +41,7 @@ Next type:
 
 ::
 
-    ssh -i ~/Desktop/amazon.pem ubuntu@ec2-???-???-???-???.compute-1.amazonaws.com
+    ssh -i ~/Desktop/workshop.pem ubuntu@ec2-???-???-???-???.compute-1.amazonaws.com
 
 (but you have to replace the stuff after the ‘@’ sign with the network
 name of the computer that is provided to you. You may wish to open your
