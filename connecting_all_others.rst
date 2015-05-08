@@ -25,8 +25,8 @@ Connect to your particular virtual computer with ssh under the username
 If you prepared in advance, the key provided for today should be on your
 Desktop already.
 
-Next, start Terminal (on a Mac it is in ``Applications`` >
-\`Utilities...) and type:
+Next, start Terminal (,on a Mac it is in ``Applications`` >
+``Utilities``,) and type:
 
 ::
 
@@ -66,7 +66,7 @@ prompt.
 Some information should scroll by and at the bottom you should now see a
 text line that starts with something like
 ``ubuntu@ip-10-235-34-223:~$``. You’re now officially connected to the
-machine at Amazon Web Services. Hooray! But you have have one last
+machine at Amazon Web Services. Hooray! But you have have one last,
 IMPORTANT step to totally take control.
 
 Type:
