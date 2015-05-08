@@ -57,7 +57,7 @@ as in the image below.
 | 
 
 You’re now officially connected to the machine at Amazon Web Services.
-Hooray! But you have have one last IMPORTANT step to totally take
+Hooray! But you have have one last, IMPORTANT step to totally take
 control.
 
 Type:
@@ -69,7 +69,7 @@ Type:
 
 The first command restarts the bash shell with you using the machine as
 the super user and the second sets you in the directory where we will
-work today ``usr/woshop``. You have to issue these commands each time
+work today ``usr/workshop``. You have to issue these commands each time
 you login; these settings don't persist.
 
 This is where we will begin today and it after this it will be much like
