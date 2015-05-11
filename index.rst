@@ -34,6 +34,7 @@ Contents
    getting_started
    connecting_windows
    connecting_all_others
+   PREPARATION PRIOR TO WORKSHOP ALL ITEMS ABOVE ONLY
    condensed initial steps for today
    Get a ChIP-Seq data set
    Process the reads based on barcode
@@ -52,4 +53,3 @@ Contents
    Making Wiggle file Covering Genome
    technical_guide_to_software
    instance_readying
-   mac_readying
