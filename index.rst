@@ -34,7 +34,21 @@ Contents
    getting_started
    connecting_windows
    connecting_all_others
-   today
-   in the wild 1
+   condensed initial steps for today
+   Get a ChIP-Seq data set
+   Process the reads based on barcode
+   Map the reads
+   Improve the mapping of the reads
+   Preliminary view of mappings
+   Peak Predictions with MACS
+   Relation to genomic features using CEAS
+   Compare to published data
+   Motif discovery with MEME
    sources
    going forward
+   support_docs_follow
+   downloading_and_uploadingEC2
+   Making Wiggle file Covering Genome
+   technical_guide_to_software
+   instance_readying
+   mac_readying
