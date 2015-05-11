@@ -26,13 +26,13 @@ Go to
 
 Scroll down to where you see ``Lists``.
 
+| |YeastMine Lists|
+| 
+
 Among the ``Lists`` listed there should be ``Telomeres``. If not, click
 on ``More lists`` and examine the list of lists.
 
 Click on the ``Telomeres`` list link.
-
-| |YeastMine Lists|
-| 
 
 Click on the ``Download button``.
 
