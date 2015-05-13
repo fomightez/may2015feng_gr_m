@@ -54,10 +54,11 @@ example name, using the authentication key located in ``workshop.pem``,
 a.k.a. the ``identity file`` prefaced by the ``-i`` option in the
 command, on your Desktop.
 
-The first time you try this on your own computer it will say it is the
-first time seeing the machine you are trying to connect to and ask if
-you'd like to register to use this computer. Simply type ``yes`` at the
-prompt.
+The first time you try this on your own computer it will say that it
+cannot establish the authenticity of the machine you are trying to
+connect to and ask if you'd like to conitue. Simply type ``yes`` at the
+prompt and the Amazon machine instance will be added to the list of
+known hosts on your computer.
 
 ::
 
