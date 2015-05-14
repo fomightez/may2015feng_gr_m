@@ -52,7 +52,6 @@ Contents
    going forward
    support_docs_follow
    downloading_and_uploadingEC2
-   telomere_bed
    Making Wiggle file Covering Genome
    technical_guide_to_software
    instance_readying
