@@ -46,8 +46,9 @@ choices.
 | 
 
 Now either click green ``Download File`` button at the bottom to
-download to your local computer. You could `then use ``scp`` to
-upload <http://fenglabwkshopmay2015.readthedocs.org/en/latest/downloading_and_uploadingEC2/>`__
+download to your local computer. You could then use ``scp`` to upload as
+illustrated
+`here <http://fenglabwkshopmay2015.readthedocs.org/en/latest/downloading_and_uploadingEC2/>`__
 it to an Amazon EC2 instance, for working on the worksop analysis
 example.
 
@@ -71,5 +72,5 @@ command. The API token in the URL is temporary and expired long ago.
 
 .. |YeastMine Lists| image:: /images/YeastMine_main_page.png
 .. |Download list button| image:: /images/download_telomere_list.png
-.. |Choose BED format| image:: /images/choose_bed_frormat.png
+.. |Choose BED format| image:: /images/choose_bed_format.png
 .. |get URL to download| image:: /images/get_URL_from_YeastMine.png
