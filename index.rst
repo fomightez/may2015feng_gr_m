@@ -36,14 +36,17 @@ Contents
    connecting_all_others
    PREPARATION PRIOR TO WORKSHOP ALL ITEMS ABOVE ONLY
    condensed initial steps for today
+   overview
    Get a ChIP-Seq data set
    Process the reads based on barcode
    Map the reads
    Improve the mapping of the reads
    Preliminary view of mappings
-   Peak Predictions with MACS
+   Peak calling with MACS
    Relation to genomic features using CEAS
    Compare to published data
+   telomere_bed
+   Filter additional regions
    Motif discovery with MEME
    sources
    going forward
