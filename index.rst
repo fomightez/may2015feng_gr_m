@@ -35,8 +35,8 @@ Contents
    connecting_windows
    connecting_all_others
    PREPARATION PRIOR TO WORKSHOP ALL ITEMS ABOVE ONLY
-   condensed initial steps for today
    overview
+   condensed initial steps for today
    genome of interest data acquistion
    Get a ChIP-Seq data set
    Process the reads based on barcode
