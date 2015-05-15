@@ -357,7 +357,7 @@ That was the case, I simply typed in my Mac's terminal:
 
     pip install macs2
 
-Sanity check for verifying installtion
+Sanity check for verifying installation
 
 ::
 
@@ -455,8 +455,8 @@ This is progress because I was getting
 
 But the ``build_genomeBG`` doesn't function. I don't think that is the
 installation. \*\*\*\*\* Is it possible it is blocked by network at
-work????? \*\*\*\*\*\* (Like I susptect SRA was?) Following from
-http://genome.ucsc.edu/goldenpath/help/mysql.html lead me to the google
+work????? \*\*\*\*\*\* (Like I suspect SRA was?) Following from
+http://genome.ucsc.edu/goldenpath/help/mysql.html lead me to the Google
 groups which I searched. Lead me to ...
 
 from
