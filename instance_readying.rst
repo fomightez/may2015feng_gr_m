@@ -9,7 +9,7 @@ This was current Spring 2015. Keep in mind things may change
 subsequently.
 
 Building the Amazon EC2 instance
-================================
+--------------------------------
 
 You'll find how I set up these systems for the workshop below, which was
 adapted from information mainly
@@ -25,7 +25,7 @@ on Windows and need to generate a ppk file from your pem file, see
 `here <http://angus.readthedocs.org/en/2014/amazon/log-in-with-ssh-win.html#generate-a-ppk-file-from-your-pem-file.>`__
 
 record of software installation for NGS work on Amazon AWS
-==========================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These are my notes concerning installing many of the bioinformatic
 software packages on a Linux AWS machines. This is basically my own
@@ -37,7 +37,7 @@ course <http://angus.readthedocs.org/en/2014/amazon/technical-guide.html>`__.
 Developed during preparation of machines for May 2015 workshop.
 
 List of installed software
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  basics like screen, git, curl, gcc comiler, python, and r, etc.
 -  `BWA (Burrows-Wheeler Aligner) <http://bio-bwa.sourceforge.net/>`__
@@ -56,7 +56,7 @@ List of installed software
 -  `CEAS <http://liulab.dfci.harvard.edu/CEAS/download.html>`__
 
 Machine preparation for April-May 2015
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Largely adapted from `Starting up a custom operating system guide for
 ANGUS
@@ -71,7 +71,7 @@ Amazon AWS, mainly relying on the
 package manager to facilitate this process.
 
 Registering an instance
-~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Logged into my Amazon AWS account.
 
@@ -142,7 +142,7 @@ Registering an instance
    -  Used the ``workshop`` key I had just made.
 
 Logging in.
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 Follow
 `here <http://angus.readthedocs.org/en/2014/amazon/log-in-with-ssh-mac.html>`__
@@ -192,7 +192,7 @@ wrong because ultimately you (or me, for today) have control of the
 instance in Amazon Web Services console.)
 
 Preparing the instance for use
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Followed
 `here <http://angus.readthedocs.org/en/2014/running-command-line-blast.html#updating-the-software-on-the-machine>`__
@@ -236,7 +236,7 @@ Installed more specific software. Most is easy to install so I issued
 The details of building this list is found below.
 
 Installation notes for NGS software
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Many of these adapted from
 http://ged.msu.edu/angus/tutorials-2012/bwa\_tutorial.html,
@@ -255,7 +255,7 @@ change things over to that. (I may leave some old notes I worked out.)
 See the links above for guidance along the lines the older methods.
 
 SAMtools
-~~~~~~~~
+^^^^^^^^
 
 `For
 Ubuntu <http://angus.readthedocs.org/en/2014/amazon/technical-guide.html>`__
@@ -265,7 +265,7 @@ Ubuntu <http://angus.readthedocs.org/en/2014/amazon/technical-guide.html>`__
     apt-get install samtools
 
 Bedtools
-~~~~~~~~
+^^^^^^^^
 
 `For
 Ubuntu <http://bedtools.readthedocs.org/en/latest/content/installation.html>`__
@@ -275,7 +275,7 @@ Ubuntu <http://bedtools.readthedocs.org/en/latest/content/installation.html>`__
     apt-get install bedtools
 
 BWA
-~~~
+^^^
 
 Looks like accoriding to
 `here <http://nebc.nerc.ac.uk/bioinformatics/docs/bwa.html>`__ maybe
@@ -294,7 +294,7 @@ and
 `here <http://icb.med.cornell.edu/wiki/index.php/Elementolab/BWA_tutorial>`__
 
 FastQC
-~~~~~~
+^^^^^^
 
 NOT DONE YET ON UBUNTU!!!
 
@@ -323,10 +323,10 @@ fastq files and the report can be saved to give the same thing the
 command line does.
 
 Bowtie2
-~~~~~~~
+^^^^^^^
 
 FastX Toolkit
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
 
 Items to note about the next steps:
 
@@ -365,16 +365,16 @@ Mac <http://seqanswers.com/forums/showthread.php?t=10709>`__ and this
 was helpful as a guide to the Mac installtion as well.
 
 SRA Toolkit
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 `SRA toolkit
 downloading <http://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software>`__
 
 Ubuntu Linux version
-^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''
 
 Best - get up to date version
-'''''''''''''''''''''''''''''
+                             
 
 First go to '~' directory in your instance. ``/mnt`` is the scratch disk
 space for Amazon machinesbut we are going to unpack the software in the
@@ -448,7 +448,7 @@ also create an ``ncbi`` directory within my directory and that had
 ``SRR390728.sra.cache`` under the directory ``~/ncbi/public/sra``.
 
 apt-get
-'''''''
+       
 
 I STRONGLY ADVISE NOT USING THIS APPROACH!!! (directions only placed
 here to document what was tried and in hope eventually it is this easy.)
@@ -471,7 +471,7 @@ AS THE GENOMESPOT BLOG ADVISED.)
 I STRONGLY ADVISE NOT USING THIS APPROACH!!! SEE ABOVE.
 
 MACS2
-~~~~~
+^^^^^
 
 When I search ``macs2`` I found it at https://pypi.python.org/pypi/MACS2
 . The site being ``pypi.python.org`` indicated to me that I should be
@@ -483,7 +483,7 @@ easily download and install.
     pip install macs2
 
 CEAS
-~~~~
+^^^^
 
 Acquiring from
 `here <http://liulab.dfci.harvard.edu/CEAS/download.html>`__
@@ -522,8 +522,12 @@ but having not run it before it said it was already installed. Maybe
 something else I had already listed was dependent on it.)
 
 MEME
-~~~~
+^^^^
 
 Not avialable via ``apt-get``.
 
-Use webserver.
+Use on webserver [here](http://meme.nbcr.net/meme/tools/meme.
+(Supposedly `here <http://meme-suite.org/tools/meme>`__ is the most
+up-to-date version of the site. However, the Upstate network said it was
+unavailable or it violated policy and has been blocked when I submitted
+jobs there.)
