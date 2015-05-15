@@ -34,7 +34,6 @@ Contents
    getting_started
    connecting_windows
    connecting_all_others
-   PREPARATION PRIOR TO WORKSHOP ALL ITEMS ABOVE ONLY
    overview
    condensed initial steps for today
    genome of interest data acquistion
