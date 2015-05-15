@@ -54,4 +54,5 @@ Contents
    downloading_and_uploadingEC2
    Making Wiggle file Covering Genome
    technical_guide_to_software
+   mac_readying
    instance_readying

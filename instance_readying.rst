@@ -24,8 +24,8 @@ perform. If you ever find yourself connecting to an Amazon EC2 instance
 on Windows and need to generate a ppk file from your pem file, see
 `here <http://angus.readthedocs.org/en/2014/amazon/log-in-with-ssh-win.html#generate-a-ppk-file-from-your-pem-file.>`__
 
-record of software installtion for NGS work on Amazon AWS
-=========================================================
+record of software installation for NGS work on Amazon AWS
+==========================================================
 
 These are my notes concerning installing many of the bioinformatic
 software packages on a Linux AWS machines. This is basically my own
