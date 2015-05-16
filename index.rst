@@ -37,7 +37,7 @@ Contents
    overview
    condensed initial steps for today
    genome of interest data acquistion
-   Get a ChIP-Seq data set
+   Get a ChIP-Seq dataset
    Process the reads based on barcode
    Map the reads
    Improve the mapping of the reads
