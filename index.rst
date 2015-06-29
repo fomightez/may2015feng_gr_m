@@ -36,7 +36,7 @@ Contents
    connecting_all_others
    overview
    condensed initial steps for today
-   genome of interest data acquistion
+   genome of interest data acquisition
    Get a ChIP-Seq dataset
    Process the reads based on barcode
    Map the reads
@@ -56,3 +56,5 @@ Contents
    technical_guide_to_software
    mac_readying
    instance_readying
+
+
