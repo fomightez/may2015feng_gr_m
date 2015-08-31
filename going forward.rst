@@ -106,7 +106,7 @@ ChIP-seq data analysis
 
 -  `ab initio motif finder
    MEME <http://www.ncbi.nlm.nih.gov/pubmed/16845028>`__ and the related
-   `MEME suite <http://www.ncbi.nlm.nih.gov/pubmed/19458158>`__
+   `MEME suite <http://www.ncbi.nlm.nih.gov/pubmed/25953851>`__
 
 -  `MEME-LaB wraps the popular ab initio motif finder in a web
    tool <http://www.ncbi.nlm.nih.gov/pubmed/23681125>`__
