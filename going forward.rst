@@ -41,6 +41,26 @@ Look into
    Titus Brown encouraging good data practices in his unique
    way <https://www.youtube.com/watch?v=uwsjwMO-TEA>`__
 
+Data Acquistion
+~~~~~~~~~~~~~~~
+
+-  `NCBI's Sequence Read Archive
+   (SRA) <http://www.ncbi.nlm.nih.gov/sra/>`__ hosts a great deal of raw
+   data.
+
+-  As described
+   `here <http://www.ncbi.nlm.nih.gov/geo/info/faq.html#seq>`__, `NCBI's
+   Gene Expression Omnibus (GEO) <http://www.ncbi.nlm.nih.gov/geo/>`__
+   hosts processed forms of data and refers to the SRA for the raw data.
+
+-  `European Nucleotide Archive (ENA) <http://www.ebi.ac.uk/ena>`__ also
+   hosts raw data but I found some select datasets slightly different in
+   stored form.
+
+-  The Yeast Genome Database hosts a selection of curated datasets for
+   *S. cerevisiae*
+   `here <http://www.yeastgenome.org/download-data/published-datasets>`__
+
 File Formats and Conversion help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
