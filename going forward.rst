@@ -54,12 +54,12 @@ Data Acquisition
    hosts processed forms of data and refers to the SRA for the raw data.
 
 -  `European Nucleotide Archive (ENA) <http://www.ebi.ac.uk/ena>`__ also
-   hosts raw data but I found some select datasets slightly different in
-   stored form.
+   hosts raw data but I found some select datasets slightly different
+   from forms stored at SRA, i.e., split reads vs interleaved, etc..
 
 -  The Yeast Genome Database hosts a selection of curated datasets for
    *S. cerevisiae*
-   `here <http://www.yeastgenome.org/download-data/published-datasets>`__
+   `here <http://www.yeastgenome.org/download-data/published-datasets>`__.
 
 File Formats and Conversion help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
