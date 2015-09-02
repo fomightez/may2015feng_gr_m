@@ -41,8 +41,8 @@ Look into
    Titus Brown encouraging good data practices in his unique
    way <https://www.youtube.com/watch?v=uwsjwMO-TEA>`__
 
-Data Acquistion
-~~~~~~~~~~~~~~~
+Data Acquisition
+~~~~~~~~~~~~~~~~
 
 -  `NCBI's Sequence Read Archive
    (SRA) <http://www.ncbi.nlm.nih.gov/sra/>`__ hosts a great deal of raw
