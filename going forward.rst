@@ -19,8 +19,9 @@ Look into
    `Using MEME to identify TF binding motif from ChIP-seq
    data <http://ged.msu.edu/angus/tutorials/chipseq-motif-finding.html>`__
    and `here <http://ged.msu.edu/angus/tutorials-2012/day5.html>`__. For
-   those ready for more see Titus's coverage, with many links, of his
-   advanced week of classes offered first in 2015
+   those ready for more, see Titus's coverage (chock for of links) of
+   his week of classes offered first in 2015 for workshop alumni and
+   advanced folks
    `here <http://ivory.idyll.org/blog/2015-small-batch.html>`__.
 
 -  `ChIP- and DNase-seq data analysis workshop
