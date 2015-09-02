@@ -24,7 +24,7 @@ Look into
    and `here <http://ged.msu.edu/angus/tutorials-2012/day5.html>`__.
    However, there's lots of stuff to be found there for those trying to
    get up and running in bioinformatics in general. And for those ready
-   for more, see Titus's coverage (chock for of links) of his week of
+   for more, see Titus's coverage (chock full of links) of his week of
    classes offered first in 2015 for workshop alumni and advanced folks
    `here <http://ivory.idyll.org/blog/2015-small-batch.html>`__.
 
