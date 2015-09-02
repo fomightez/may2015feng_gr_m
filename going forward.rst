@@ -9,19 +9,23 @@ Look into
 ---------
 
 -  `Titus Brown and Colleague's Next-Gen Sequence Analysis
-   Workshops <http://ged.msu.edu/angus/>`__, most recent is [Next-Gen
+   Workshops <http://ged.msu.edu/angus/>`__, most recent are `Next-Gen
    Sequence Analysis Workshop
-   (2014)(http://angus.readthedocs.org/en/2014/) Particularly pertinent
-   are the sections `Istvan Albert's 2012 ChIP-Seq
+   (2014) <http://angus.readthedocs.org/en/2014/>`__ and `Next-Gen
+   Sequence Analysis Workshop
+   (2015) <http://angus.readthedocs.org/en/2015/>`__. Particularly
+   pertinent to today's efforts are the sections `Istvan Albert's 2012
+   ChIP-Seq
    lecture <http://ged.msu.edu/angus/tutorials-2012/day5.html>`__, `Day
    7: ChIP-seq: Peak Predictions and Cis-regulatory Element
    Annotations <http://ged.msu.edu/angus/tutorials-2011/day7.html>`__,
    `Using MEME to identify TF binding motif from ChIP-seq
    data <http://ged.msu.edu/angus/tutorials/chipseq-motif-finding.html>`__
-   and `here <http://ged.msu.edu/angus/tutorials-2012/day5.html>`__. For
-   those ready for more, see Titus's coverage (chock for of links) of
-   his week of classes offered first in 2015 for workshop alumni and
-   advanced folks
+   and `here <http://ged.msu.edu/angus/tutorials-2012/day5.html>`__.
+   However, there's lots of stuff to be found there for those trying to
+   get up and running in bioinformatics in general. And for those ready
+   for more, see Titus's coverage (chock for of links) of his week of
+   classes offered first in 2015 for workshop alumni and advanced folks
    `here <http://ivory.idyll.org/blog/2015-small-batch.html>`__.
 
 -  `ChIP- and DNase-seq data analysis workshop
