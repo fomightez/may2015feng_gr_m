@@ -285,11 +285,14 @@ is bitwise <https://www.biostars.org/p/7374/>`__ so that the values can
 be combined to express complex sets in a compact,'computer
 science-wisey' way. `This tool
 here <https://broadinstitute.github.io/picard/explain-flags.html>`__ is
-particularly helpful for novices deciphering this. In this tool's
-``flag`` box, enter the flag value of ``20`` and hit ``explain`` you see
-that is a way of expressing those that are unmapped or map to the
-reverse strand. With ``-F`` option we exclude those. You may wish to
-seek additional help on this concept by looking at `slides 28-31 of this
+particularly helpful for novices deciphering this. (There is now a tool
+that claims to improve upon the Broad's utility
+`here <http://djf604.github.io/SAM-flags-explained-improved/>`__) In
+this tool's ``flag`` box, enter the flag value of ``20`` and hit
+``explain`` you see that is a way of expressing those that are unmapped
+or map to the reverse strand. With ``-F`` option we exclude those. You
+may wish to seek additional help on this concept by looking at `slides
+28-31 of this
 presenation <http://www.slideshare.net/lindenb/ngsformats?ref=http://plindenbaum.blogspot.com/2013/09/presentation-file-formats-for-next.html?m=1>`__
 and information and links `here <https://www.biostars.org/p/52657/>`__
 or `here <https://www.biostars.org/p/107256/>`__ or `here as mentioned
