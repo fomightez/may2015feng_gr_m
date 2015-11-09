@@ -8,10 +8,6 @@ from recommonmark.parser import CommonMarkParser
 sys.path.insert(0, os.path.abspath('..'))
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "readthedocs.settings.sqlite")
 
-from django.conf import settings
-
-import django
-django.setup()
 
 
 sys.path.append(os.path.abspath('_ext'))
