@@ -14,7 +14,6 @@ sys.path.append(os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
-    'sphinx_http_domain',
     'djangodocs',
 ]
 templates_path = ['_templates']
