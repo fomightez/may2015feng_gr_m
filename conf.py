@@ -7,7 +7,7 @@
 # the lines that caused the builds to fail one by one until it worked.
 #
 # Impetus was that I was looking for a way to have the copyright set properly
-# but allow my normal approach to making the `.rst` files for sphinx work.
+# but allow my normal (hack) approach to making the `.rst` files for sphinx work.
 #
 #
 import os
