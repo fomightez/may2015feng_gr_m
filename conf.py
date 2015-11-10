@@ -23,7 +23,7 @@ source_parsers = {
 }
 
 master_doc = 'index'
-project = u'MayGroupMeeting'
+#project = u'MayGroupMeeting'
 copyright = u'2015, Wayne Decatur'
 version = '1.0'
 release = '1.0'
