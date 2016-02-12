@@ -62,6 +62,12 @@ simultaneous threads:
 
     bwa aln -t 4 genome.fa SRR346368_TAGCGT.fastq > SRR346368_TAGCGT_Ys_genome.sai
 
+(You can use a UNIX trick to let the computer determine how many cores
+it has and thus how many threads it can run. On Linux, replace ``4`` on
+the above line with ``$(nproc --all)`` as illustrated
+`here <https://jbadomics.github.io/tnseq/#tn-seq-data-analysis-workflow>`__.
+On a Mac, you'd replace ``4`` with ``sysctl -n hw.ncpu``.)
+
 Now look at the SAM output file
 
 ::
@@ -112,6 +118,8 @@ We get:
 
     EOF marker is absent. The input is probably truncated.
     [bam_header_read] invalid BAM binary header (this is not a BAM file).
+
+Plus a bunch of ``zero`` results.
 
 Despite the name, it seems it needs a BAM file to do this. Well, a BAM
 file is just a compressed binary version of a SAM file according to `the
@@ -430,7 +438,7 @@ Finally, now that we have everything, let's run ``tview``.
 You'll be whisked away to a sequence map. `This
 tutorial <http://biobits.org/samtools_primer.html#VisualizingReads>`__
 has a guide to navigating. Use ``h`` and ``l`` to move right and left;
-``j`` and ``k`` for up and down (Arrow keys seem to work too.)e
+``j`` and ``k`` for up and down. (Arrow keys seem to work too.)
 
 Type ``?`` for help. You may need to expand your terminal window to see
 all the way to the bottom of the ``help`` menu.
