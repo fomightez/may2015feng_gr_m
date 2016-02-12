@@ -597,20 +597,17 @@ The first plot shows 5.9% mappable on genome background because we
 didn't provide a typical control sample here and it just calculates 5.9%
 without such input due to the way the calculation works having a cutoff
 of 5.9. See `in the CEAS
-paper <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538818/>`__ 
-
-    where the background is the 9th order nucleotide Markov dependency 
-    estimated from the human genomic sequence. A score cutoff of Max (5,0.9 × Motif
-    Relative Entropy) is used to call a motif a hit.
+paper <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538818/>`__ >where
+the background is the 9th order nucleotide Markov dependency estimated
+from the human genomic sequence. A score cutoff of Max (5,0.9 × Motif
+Relative Entropy) is used to call a motif a hit.
 
 Plus it is probably moot for the ChIP-exo data used here. Recall from
-Rhee and Pugh, 2011 
-
-    Uncrosslinked nonspecific DNA is largely
-    eliminated by exonuclease treatment, as evidenced by the repeated
-    failure to generate a ChIP-exo library from a negative control BY4741
-    strain. Therefore, use of an exonuclease makes comparisons to input DNA
-    or mock IP moot, in that such DNA is destroyed.
+Rhee and Pugh, 2011 > Uncrosslinked nonspecific DNA is largely
+eliminated by exonuclease treatment, as evidenced by the repeated
+failure to generate a ChIP-exo library from a negative control BY4741
+strain. Therefore, use of an exonuclease makes comparisons to input DNA
+or mock IP moot, in that such DNA is destroyed.
 
 Optional: Look at reads and/or peaks in IGB or IGV or SeqMonk OR UCSC genome browser
 ------------------------------------------------------------------------------------
