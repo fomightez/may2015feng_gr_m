@@ -226,7 +226,7 @@ When done, you should see
     Read 46798614 spots for SRR346368
     Written 46798614 spots for SRR346368
 
-And you'll have a file ``SRR346368.fastq`` in your ``/mnt`` directory.
+And you'll have a file ``SRR346368.fastq`` in your directory.
 
 If you type
 
