@@ -304,7 +304,9 @@ may wish to seek additional help on this concept by looking at `slides
 presenation <http://www.slideshare.net/lindenb/ngsformats?ref=http://plindenbaum.blogspot.com/2013/09/presentation-file-formats-for-next.html?m=1>`__
 and information and links `here <https://www.biostars.org/p/52657/>`__
 or `here <https://www.biostars.org/p/107256/>`__ or `here as mentioned
-earlier <http://seqanswers.com/forums/showthread.php?t=17314>`__.)
+earlier <http://seqanswers.com/forums/showthread.php?t=17314>`__ or
+`swbarnes' answer
+here <http://seqanswers.com/forums/archive/index.php/t-21843.html>`__.)
 
 Again, we need to convert these to fastq as we did before.
 
