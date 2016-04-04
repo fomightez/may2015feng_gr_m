@@ -13,16 +13,45 @@ Limited to linux/Unix/Mac systems, but very straighforward.
 -  http://angus.readthedocs.org/en/2014/amazon/transfer-files-between-instance.html
 
 Example that worked in the terminal on my Mac to download from my Amazon
-instance.
+instance (back when public DNS/hostname formatted like
+ec2-50-19-16-34.compute-1.amazonaws.com).
 
 ::
 
     scp -i workshop.pem ubuntu@ec2-50-19-16-34.compute-1.amazonaws.com:/usr/workshop/sc3.db .
 
 The key is ``workshop.pem``. And
-``ec2-50-19-16-34.compute-1.amazonaws.com`` was my current instance. The
-``.`` specified to download the file ``sc3.db`` to the current working
-directory.
+``ec2-50-19-16-34.compute-1.amazonaws.com`` was my current instance
+hostname. The ``.`` specified to download the file ``sc3.db`` to the
+current working directory.
+
+For newer Amazon EC2 instances (Summer 2015 forward-->), that command
+will look more like
+
+::
+
+    scp -i workshop.pem ubuntu@54.86.18.122:/usr/workshop/sc3.db .
+
+Where ``54.86.18.122`` is the public IP address of the instance.
+
+WARNING: You may observe errors like
+``scp: /root/my_directory/genome.fa: Permission denied`` if you try to
+download/upload to places without proper permissions. Check the
+permissions (command ``ls -l``) for learning which directories you can
+read and write to on your instance for using scp to upload/download, see
+`here <http://ss64.com/bash/syntax-permissions.html>`__ for interpreting
+the codes. (Basically you want ``r`` for downloading and ``w`` for
+uploading to be among the six characters on the right). For example, you
+cannot read or write direct to ``root``. Aside from ``root``, most
+directories created by the instance at creation, even those below
+``root`` allow reading which makes downloading from most directories to
+a local drive possible using ``scp``. Tip: for Amazon EC2 instances
+there is a ``tmp`` directory that allows both reading and writing. For
+uploading to your instance you can use that ``tmp`` as a target to go
+from your local machine to your instance. Then once uploaded, move the
+file or files to a more logical place within your instance.
+
+See also:
 
 -  http://stackoverflow.com/questions/6558080/scp-secure-copy-to-ec2-instance-without-password
 
