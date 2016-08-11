@@ -2,8 +2,8 @@
    :depth: 3.0
 ..
 
-Obtaining a BED of Telomere sequences
-=====================================
+Appendix: Obtaining a BED of Telomere sequences
+===============================================
 
 Rationale
 ~~~~~~~~~

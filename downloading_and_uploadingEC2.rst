@@ -2,8 +2,8 @@
    :depth: 3.0
 ..
 
-Help getting files on and off Amazon AWS EC2 instances
-======================================================
+Appendix: Help getting files on and off Amazon AWS EC2 instances
+================================================================
 
 SCP
 ---

@@ -10,7 +10,8 @@ on barcodes or indexing) described in this section will already have
 been done in modern datasets you either receive from a facility or find
 publically.
 
-According to metadata at http://www.ncbi.nlm.nih.gov/sra/SRX098212[accn]
+According to metadata at `http://www.ncbi.nlm.nih.gov/sra/SRX098212[accn]
+<http://www.ncbi.nlm.nih.gov/sra/SRX098212[accn]>`__
 
     Experiment2 (SSFs 1). Barcoded paired-end run was performed in
     SRX098212 by AB SOLiD System 3.0. 35 bp F3 (mate 1) run contains
@@ -52,9 +53,27 @@ line
 
     python split_SOLiD_reads.py SRR346368.fastq TAGCGT 10
 
-It will take about 15 to twenty minutes to run. Upon completion you
+It will take about 15 to twenty minutes to run.
+
+For the sake of time, we are not going to concern ourselves much with
+the details of the script today. If you want to continue your
+exploration of coding with Python that we started in the first session,
+I'd suggest you look over the implementation of the sorting described
+above
+`here <https://github.com/fomightez/sequencework/blob/master/SOLiD/split_SOLiD_reads_basic.py>`__.
+The main code is way at the bottom, and keep in mind this is a fairly
+advanced script only because it includes several bells and whistles,
+such as a built-in debugging option, a usage guide, and reading
+arguments from the command line. The link is actually for the code for a
+simpler version of the script we used today. The one we used has an
+extra check built in to make sure the sets of reads always matched up
+based on the annotation for each read. The documentation for both
+scripts can be found
+`here <https://github.com/fomightez/sequencework/tree/master/SOLiD>`__.
+
+Upon completion of the script running and processing the data, you
 should see something very similar to below. Make sure your collected
-reads is similar (hopefully even exactly the same).
+reads count is similar (hopefully, even exactly the same).
 
 ::
 

@@ -2,8 +2,8 @@
    :depth: 3.0
 ..
 
-Technical guide to the workshop
-===============================
+Appendix: Technical guide to the workshop
+=========================================
 
 A lot of software and supporting libraries are necssary on a machine to
 run the analysis used in the workshop. Many of these resources are

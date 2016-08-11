@@ -2,8 +2,8 @@
    :depth: 3.0
 ..
 
-Making Wiggle file Covering Genome
-==================================
+Appendix: Making Wiggle file Covering Genome
+============================================
 
 One of the required files for the ``build_genomeBG`` utility included
 with the CEAS package is a wiggle file that describes the genomic

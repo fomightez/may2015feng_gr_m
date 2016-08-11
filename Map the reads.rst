@@ -637,6 +637,7 @@ You can use your browser on your local computer to get it at
     http://downloads.yeastgenome.org/published_datasets/Rhee_2011_PMID_22153082/track_files/Rhee_2011_Gal4_ChIP_exo_bound_locations_V64.bed
 
 Alternatively if you wish to stay working on the command line...
+
 Downloading on a Mac
 
 ::

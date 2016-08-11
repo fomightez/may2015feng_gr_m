@@ -2,8 +2,8 @@
    :depth: 3.0
 ..
 
-Setting up an Amzon EC2 instance for the workshop
-=================================================
+Appendix: Setting up an Amzon EC2 instance for the workshop
+===========================================================
 
 This was current Spring 2015. Keep in mind things may change
 subsequently.
@@ -503,7 +503,7 @@ Unpacking adn installing, following
 
     cd CEAS-Package-1.0.2/
 
-    python setup.py instal
+    python setup.py install
 
 Sanity check.
 
@@ -526,7 +526,7 @@ MEME
 
 Not avialable via ``apt-get``.
 
-Use on webserver [here](http://meme.nbcr.net/meme/tools/meme.
+Use on webserver `here <http://meme.nbcr.net/meme/tools/meme>`__.
 (Supposedly `here <http://meme-suite.org/tools/meme>`__ is the most
 up-to-date version of the site. However, the Upstate network said it was
 unavailable or it violated policy and has been blocked when I submitted

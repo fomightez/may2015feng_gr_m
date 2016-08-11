@@ -45,7 +45,6 @@ Contents
    Peak calling with MACS
    Relation to genomic features using CEAS
    Compare to published data
-   telomere_bed
    Filter additional regions
    Motif discovery with MEME
    sources
@@ -53,8 +52,7 @@ Contents
    support_docs_follow
    downloading_and_uploadingEC2
    Making Wiggle file Covering Genome
+   telomere_bed
    technical_guide_to_software
    mac_readying
    instance_readying
-
-

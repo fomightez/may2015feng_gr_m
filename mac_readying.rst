@@ -2,8 +2,8 @@
    :depth: 3.0
 ..
 
-Setting up a Mac for the workshop
-=================================
+Appendix: Setting up a Mac for the workshop
+===========================================
 
 This was current Spring 2015 and done on a Mac running Mavericks. Keep
 in mind things may change subsequently.
