@@ -492,7 +492,7 @@ Acquiring from
 
     wget http://liulab.dfci.harvard.edu/CEAS/src/CEAS-Package-1.0.2.tar.gz
 
-Unpacking adn installing, following
+Unpacking and installing, following
 `here <http://liulab.dfci.harvard.edu/CEAS/install.html>`__
 
 ::
