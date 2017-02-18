@@ -2,10 +2,10 @@
    :depth: 3.0
 ..
 
-May 2015 Feng Lab meeting
-=========================
+May 2015 Feng Lab meeting ChIP-Seq Hands-on
+===========================================
 
-Hands on ChIP-Seq Analysis Workshop for Feng Lab Group meeting by Wayne
+Hands-on ChIP-Seq Analysis Workshop for Feng Lab Group meeting by Wayne
 Decatur
 
 3:30am-5:20pm, May 14th, 2015.
