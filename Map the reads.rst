@@ -214,7 +214,7 @@ rely on SAMtools.
 
     samtools view -f 4 SRR346368_TAGCGTvsYsGenome_bwaN3.bam > SRR346368_TAGCGTvsYsGenome_bwaN3.unmapped.sam
 
-That `filters the reads that have ``4`` for the flag
+That filters the reads that have ``4`` for `the flag
 value <http://seqanswers.com/forums/archive/index.php/t-16743.html>`__.
 (We won't need the @SQ header for this file so we left off the ``-h``
 option.) You can look at the output using the ``head`` command.
@@ -286,10 +286,10 @@ DON'T. While it will work for filter on ``16`` to get those mapped to
 the reverse, it fails to filter out anything if you try to filter on
 ``0``. Perhaps counterintuitively, to get those
 ``forward mapping reads`` you can see in the SAM file as having a ``0``
-value for the flag, `you need to actually use ``-F 20`` as the option
+value for the flag, you need to actually use ``-F 20`` `as the option
 setting <https://www.biostars.org/p/14378/>`__. The reason the filter on
 ``0`` approach fails and the ``F -20`` option works is because the `flag
-is bitwise <https://www.biostars.org/p/7374/>`__ o that the values can
+is bitwise <https://www.biostars.org/p/7374/>`__ so that the values can
 be combined to express complex sets in a compact,'computer
 science-wisey' way. `This tool
 here <https://broadinstitute.github.io/picard/explain-flags.html>`__ is
