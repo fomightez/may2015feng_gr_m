@@ -289,20 +289,21 @@ the reverse, it fails to filter out anything if you try to filter on
 value for the flag, `you need to actually use ``-F 20`` as the option
 setting <https://www.biostars.org/p/14378/>`__. The reason the filter on
 ``0`` approach fails and the ``F -20`` option works is because the `flag
-is bitwise <https://www.biostars.org/p/7374/>`__ so that the values can
+is bitwise <https://www.biostars.org/p/7374/>`__ o that the values can
 be combined to express complex sets in a compact,'computer
 science-wisey' way. `This tool
 here <https://broadinstitute.github.io/picard/explain-flags.html>`__ is
-particularly helpful for novices deciphering this. (There is now a tool
-that claims to improve upon the Broad's utility
-`here <http://djf604.github.io/SAM-flags-explained-improved/>`__) In
-this tool's ``flag`` box, enter the flag value of ``20`` and hit
-``explain`` you see that is a way of expressing those that are unmapped
-or map to the reverse strand. With ``-F`` option we exclude those. You
+particularly helpful for novices deciphering this. In this tool's
+``flag`` box, enter the flag value of ``20`` and hit ``explain`` you see
+that is a way of expressing those that are unmapped or map to the
+reverse strand. With ``-F`` option we exclude those. Compounding the
+complex nature of this encoding is the fact it is hexidecimal based. You
 may wish to seek additional help on this concept by looking at `slides
 28-31 of this
-presenation <http://www.slideshare.net/lindenb/ngsformats?ref=http://plindenbaum.blogspot.com/2013/09/presentation-file-formats-for-next.html?m=1>`__
-and information and links `here <https://www.biostars.org/p/52657/>`__
+presentation <http://www.slideshare.net/lindenb/ngsformats?ref=http://plindenbaum.blogspot.com/2013/09/presentation-file-formats-for-next.html?m=1>`__
+and information and links or
+`here <http://blog.nextgenetics.net/?e=18>`__ or
+`here <https://biowize.wordpress.com/2012/11/16/decoding-sam-flags/>`__\ `here <https://www.biostars.org/p/52657/>`__
 or `here <https://www.biostars.org/p/107256/>`__ or `here as mentioned
 earlier <http://seqanswers.com/forums/showthread.php?t=17314>`__ or
 `swbarnes' answer
